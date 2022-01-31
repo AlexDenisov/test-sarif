@@ -20,13 +20,5 @@ jobs:
         run: |
           echo $PWD
           text="survived cxx_add_to_sub"
-          echo "::warning file=main.c,line=6,col=5::$text"
-      - name: Initialize CodeQL
-        uses: github/codeql-action/init@v1
-
-      - name: Autobuild
-        uses: github/codeql-action/autobuild@v1
-
-      - name: Perform CodeQL Analysis
-        uses: github/codeql-action/analyze@v1
+          echo "::warning file=/home/runner/work/test-sarif/test-sarif/main.c,line=6,col=5::$text"
 
