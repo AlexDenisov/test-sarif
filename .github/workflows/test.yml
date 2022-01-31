@@ -17,5 +17,5 @@ jobs:
           category: mutation-testing
       - name:
         run: |
-          echo "##[warning]main.c:2:12: warning: survived cxx_add_to_sub"
+          echo "##[warning]main.c:6:5: warning: survived cxx_add_to_sub"
 
