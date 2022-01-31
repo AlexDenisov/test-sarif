@@ -12,7 +12,7 @@
           "ruleId": "cxx_add_to_sub",
           "level": "warning",
           "message": {
-            "text": "what\n\n\n if I put here a really long text message, will it also be rendered as a title of the error message on github actions or will i find a way to replace the titile with something smaller than this error messages?"
+            "text": "what.\n\n\n if I put here a really long text message, will it also be rendered as a title of the error message on github actions or will i find a way to replace the titile with something smaller than this error messages?"
           },
           "locations": [
             {
