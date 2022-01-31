@@ -15,4 +15,7 @@ jobs:
         with:
           sarif_file: result.sarif
           category: mutation-testing
+      - name:
+        run: |
+          echo "##[warning]main.c:2:12: warning: survived cxx_add_to_sub"
 
