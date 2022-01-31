@@ -15,6 +15,7 @@ jobs:
         with:
           sarif_file: result.sarif
           category: mutation-testing
+          wait-for-processing: true
       - name:
         run: |
           echo $PWD
