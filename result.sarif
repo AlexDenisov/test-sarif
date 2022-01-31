@@ -1,0 +1,36 @@
+{
+  "version" : "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "mull"
+        }
+      },
+      "results": [
+        {
+          "ruleId": "cxx_add_to_sub",
+          "level": "warning",
+          "message": {
+            "text": "replace + with -"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "main.c",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 2,
+                  "startColumn": 12
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
