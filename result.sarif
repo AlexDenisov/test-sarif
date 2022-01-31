@@ -18,7 +18,7 @@
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "/home/runner/work/test-sarif/test-sarif/main.c",
+                  "uri": "main.c",
                   "index": 0
                 },
                 "region": {
